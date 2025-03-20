@@ -17,7 +17,7 @@ const LandingPage = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0">
-              <img src="/api/placeholder/600/400" alt="Shweta Kale" className="rounded-lg shadow-lg" />
+              <img src="/me.png" alt="Shweta Kale" className="rounded-lg" />
             </div>
             <div className="md:w-1/2 md:pl-12">
               <h2 className="text-3xl font-bold mb-6 text-indigo-700">My Intro</h2>

@@ -141,9 +141,12 @@ const LandingPage = () => {
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             I'm always open to discussing product design work or partnership opportunities.
           </p>
-          <button className="px-8 py-3 bg-white text-indigo-600 rounded-full font-bold hover:bg-indigo-100 transition-colors duration-300 shadow-lg">
+          <a
+            href="mailto:shwetakale144@gmail.com"
+            className="px-8 py-3 bg-white text-indigo-600 rounded-full font-bold hover:bg-indigo-100 transition-colors duration-300 shadow-lg"
+          >
             Get In Touch
-          </button>
+          </a>
         </div>
       </section>
 
@@ -152,13 +155,15 @@ const LandingPage = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="mb-4 md:mb-0">&copy; {new Date().getFullYear()} Shweta Kale. All rights reserved.</p>
-            {/* <div className="flex space-x-4">
-              <a href="/privacy-policy" className="hover:text-indigo-300 transition-colors duration-300">Privacy Policy</a>
+            <div className="flex space-x-4">
+              <a href="/privacy" className="hover:text-indigo-300 transition-colors duration-300">Privacy Policy</a>
+              <a href="/refund-policy" className="hover:text-indigo-300 transition-colors duration-300">Refund Policy</a>
               <a href="/terms-of-use" className="hover:text-indigo-300 transition-colors duration-300">Terms of Use</a>
-            </div> */}
+            </div>
           </div>
         </div>
       </footer>
+
     </div>
   );
 };
